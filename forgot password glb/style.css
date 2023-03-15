@@ -1,0 +1,88 @@
+.forgotpass {
+    background: url(img/bg.png) no-repeat;
+    background-size: 102vw 70vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frgtarr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 93vh;
+    width: 50vw;
+}
+
+.txtarr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.ctacont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 12vh;
+}
+
+.ctacont input {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+
+.txtarr p {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0px 6px 8px #0000006b;
+}
+
+.txtarr h1 {
+    font-family: poppins;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0px 6px 8px #0000006b;
+}
+
+.fill {
+    padding: 20px 20px;
+    border: 1px solid #4F5665;
+    border-radius: 20px;
+    display: block;
+    width: 33vw;
+}
+
+.btnfrgt {
+    padding: 33px 5vw;
+    border-radius: 20px;
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFBA33;
+    border: none;
+    cursor: pointer;
+}
+
+.btnfrgt2 {
+    padding: 4vh 5vw;
+    border-radius: 20px;
+    font-family: rubik;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #6A4029;
+    border: none;
+    cursor: pointer;
+}

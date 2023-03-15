@@ -1,0 +1,497 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.bg-grey {
+    background-color: #EDEDED;
+}
+
+.btn {
+    padding: 13px 45px;
+}
+
+.btn-small {
+    padding: 10px 21px;
+}
+
+.btn-fullsize {
+    padding: 2vh;
+    width: 100%;
+}
+
+.radius20px {
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hvrcnttxt {
+    width: 23vw;
+}
+
+.abs-btn {
+    padding: 3vh 5vw;
+    border-radius: 20px;
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFBA33;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-log {
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #FFBA33;
+    cursor: pointer;
+    box-shadow: 0px 6px 20px 0px #0000001b;
+}
+
+.btn-log-brwn {
+    font-family: rubik;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #6A4029;
+    cursor: pointer;
+    box-shadow: 0px 6px 20px 0px #0000001b;
+}
+
+.btn-g {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 6px 20px 0px #0000001b;
+}
+
+.btn-g-txt {
+    font-family: poppins;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+.btn-prim {
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFBA33;
+    cursor: pointer;
+}
+
+.btn-sec {
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px #FFBA33 solid;
+    border-radius: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-log-sec-brown {
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px #6A4029 solid;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-primnav {
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFBA33;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.logcta {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 30vw;
+    height: 70vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    border-radius: 20px;
+}
+
+/* effect*/
+.eff-btn-sec {
+    transition: all 0.3s ease;
+}
+
+.eff-btn-sec:hover {
+    box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.63);
+}
+
+.eff-btn {
+    transition: all 0.3s ease;
+}
+
+.eff-btn:hover {
+    box-shadow: 0px 6px 20px 0px #FFBA3366;
+    font-weight: 700;
+}
+
+.eff-nav {
+    transition: all 0.3s ease;
+}
+
+.eff-nav:hover {
+    color: #000;
+    font-weight: 700;
+}
+
+.eff-card {
+    transition: all 0.3s ease;
+}
+
+.eff-btncrd {
+    transition: all 0.3s ease;
+}
+
+.eff-btncrd2 {
+    transition: all 0.3s ease;
+}
+
+.eff-card:hover {
+    border-color: #6A4029;
+    box-shadow: 0px 6px 20px 0px #26262518
+}
+
+.eff-btncrd:hover {
+    border-color: #6A4029;
+    background-color: #FFBA33;
+    border: none;
+}
+
+.eff-btncrd2:hover {
+    background-color: #6A4029;
+    color: #ffffff;
+    border: none;
+}
+
+.eff-btn {
+    transition: all 0.3s ease;
+}
+
+.eff-btn:hover {
+    box-shadow: 0px 6px 20px 0px #FFBA3366;
+    font-weight: 700;
+}
+
+/* end on hover btn */
+
+/*icn size*/
+.icn60 {
+    height: 60px;
+    width: 60px;
+}
+
+.icn55 {
+    height: 55px;
+    width: 55x;
+}
+
+.icn50 {
+    height: 50px;
+    width: 50px;
+}
+
+.icn33 {
+    height: 33px;
+    width: 33px;
+}
+
+.icn30 {
+    height: 30px;
+    width: 30px;
+}
+
+.icn24 {
+    height: 24px;
+    width: 24px;
+}
+
+.icn20 {
+    height: 20px;
+    width: 20px;
+}
+
+.icn18 {
+    height: 18px;
+    width: 18x;
+}
+
+
+.icn16 {
+    height: 16px;
+    width: 16px;
+}
+
+/* text */
+.text-center {
+    text-align: center;
+}
+
+.h1-brown-bld {
+    font-family: rubik;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6A4029;
+}
+
+.h1-2-brown-bld {
+    font-family: rubik;
+    font-size: 35px;
+    font-weight: 700;
+    color: #6A4029;
+}
+
+.h1 {
+    font-family: rubik;
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.h3-bld {
+    font-family: rubik;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.h3-bld-brwn {
+    font-family: rubik;
+    font-size: 25px;
+    font-weight: 700;
+    color: #6A4029;
+}
+
+.h3-xbld-poppins {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 800;
+    color: #0B132A;
+}
+
+.h3 {
+    font-family: rubik;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.h2 {
+    font-family: rubik;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.p-m-gry {
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.p-m-brwn-bld {
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6A4029;
+}
+
+.p-s-gry {
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.p-s-blck {
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0B132A;
+}
+
+.p-s-blck-med {
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.p-s-gry-med {
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4F5665;
+}
+
+.p-s-gry-bld {
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4F5665;
+}
+
+.p-xs {
+    font-family: rubik;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.p-xs-blck {
+    font-family: rubik;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.p-xs-blck-bld {
+    font-family: rubik;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* margin & padding*/
+
+.mb-5 {
+    margin-bottom: 1rem;
+}
+.p-50 {
+    padding: 50px
+}
+
+.nomargin {
+    margin: 0px 0px;
+}
+
+/* form */
+
+.filllyt {
+    border: 1px solid #4F5665;
+    color: #9F9F9F;
+    border-radius: 20px;
+    padding: 20px 20px;
+    display: block;
+}
+
+
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.textlogo {
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding-left: 15px;
+}
+
+/* footer */
+.footcont {
+    display: flex;
+    height: 40vh;
+    padding: 0px 150px;
+    padding-top: 4vh;
+    background-color: #F8F8F8;
+}
+
+.leftft {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    flex: 0.4;
+}
+
+.socicn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    width: 10vw;
+    justify-content: space-between;
+}
+
+.rightft {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 40vh;
+    flex: 1;
+}
+
+.ctaft {
+    display: flex;
+    width: 14vw;
+    justify-content: center;
+}
+
+.ul-ctaft {
+    padding: 0px;
+    padding-top: 1.5vh;
+    margin: 0px 0px;
+}
+
+.li-ctaft {
+    display: flex;
+    padding: 10px 5px;
+    flex-direction: column;
+}
+
+.sb-fill {
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding-left: 16px;
+    width: 18vw;
+}

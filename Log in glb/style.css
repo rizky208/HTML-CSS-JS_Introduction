@@ -1,0 +1,77 @@
+.sidebg {
+    background: url(img/background.png) no-repeat;
+    background-size: cover;
+    height: 139vh;
+    display: flex;
+    flex: 0.5;
+}
+
+.fillform {
+    height: 100%;
+    flex-direction: column;
+    flex: 0.5
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+.loginarr {
+    display: flex;
+    flex-direction: column;
+    height: 78vh;
+    align-items: center;
+    padding: 3vw;
+    padding-bottom: 0px;
+}
+
+.inputarr {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 30vw;
+}
+
+.text-account {
+    position: relative;
+    text-align: center;
+    top: -20px;
+    background: white;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.formipt {
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    width: 30vw;
+    justify-content: space-between;
+    padding-top: 6vh;
+}
+
+.cont-btn-g {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hvrcontainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #ffffff;
+    width: auto;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 122vh;
+    box-shadow: 0px 6px 20px 0px #26262518
+}

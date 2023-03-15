@@ -1,0 +1,224 @@
+.navbar {
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #9F9F9F solid;
+}
+
+.ul-navbar {
+    padding: 0px;
+    padding-left: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-navbar {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navcta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vw;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    padding: 10px 10px;
+    padding-left: 1vw;
+    background-color: #EFEEEE;
+    border-radius: 20px;
+}
+
+.bg-image {
+    background: url(img/pymntbg.jpg) no-repeat;
+    background-size: 102vw 70vw;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    padding: 5vh 3vw;
+    background-color: #ffffff;
+    height: 73vh;
+    width: 30vw;
+}
+
+.pymtnheader {
+    display: flex;
+    width: 51%;
+    padding-right: 18vw;
+}
+
+.pymtnheader h1 {
+    text-shadow: 0px 6px 8px #0000006b;
+}
+
+.ovrtxtarr h1 {
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 700;
+    color: #6A4029;
+    padding: 2vh 0px;
+}
+
+.paymentlist {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    /* border-radius: 20px; */
+    padding: 3vh 0px;
+}
+
+.paymentlist img {
+    width: 50px;
+    width: 62px;
+}
+
+.paymentlist p {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.pymnth1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24vw;
+    padding-top: 10px;
+}
+.pymnth1 h1 {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6A4029;
+}
+
+.txtgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 13vw;
+    padding-left: 2vw;
+}
+
+.cxoutcta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0vw;
+}
+
+.pymnttxtarr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    flex: 1;
+    padding-right: 150px;
+    padding-top: 12vh;
+    padding-left: 3vw;
+}
+
+.card-addres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 3vh 0px;
+    background-color: #ffffff;
+    height: 24vh;
+    width: 82%;
+}
+
+.dtlpymnt {
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+}
+
+.txtalign {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* height: 50vh; */
+}
+
+.txtalign hr {
+    width: 100%;
+    height: 1px;
+    background-color: #bcbcbcef;
+    margin: 0px;
+}
+
+
+.menuact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 150px;
+    height: 104vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.dtlpymnt h1 {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+     text-shadow: 0px 6px 8px #0000006b;
+}
+
+.card-addres-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 3vh 0px;
+    background-color: #ffffff;
+    height: 35vh;
+    width: 83%;
+}
+
+.pymntmethod {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.btnnew {
+    display: flex;
+    flex: fle;
+    width: 100%;
+    padding: 3vh 9vw;
+    margin-top: 57px;
+}
+

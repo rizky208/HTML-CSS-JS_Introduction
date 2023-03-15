@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop signup - rizky aditya</title>
+    <link rel="stylesheet" href="global.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <section class="sidebg"></section>
+        <section class="fillform">
+            <nav class="container navbar">
+                <section class="logo">
+                    <img class="icn30" src="img/logo.png" />
+                    <h1 class="textlogo">Coffee Shop</h1>
+                </section>
+                <a href="file:///C:/Users/Capt.Rizky%20Aditya/OneDrive/Desktop/Log%20in/index.html"><button class="btn btn-primnav eff-btn">Login</button></a>
+            </nav>
+
+            <div class="loginarr">
+                <h3 class="rubik font35px-bld text-brown text-brown nomargin">Sign Up</h3>
+                <form class="inputarr form">
+                    <div class="formipt">
+                        <label class="rubik font16px-bld text-grey" for="email-input">Email Address :</label>
+                        <input class="filllyt rubik" id="email-input" type="email"
+                            placeholder="Enter your email adress" />
+                    </div>
+                    <div class="formipt">
+                        <label class="rubik font16px-bld text-grey" for="password-input">Password :</label>
+                        <input class="filllyt rubik" id="password-input" type="password"
+                            placeholder="Enter your password" />
+                    </div>
+                    <div class="formipt">
+                        <label class="rubik font16px-bld text-grey" for="phonenumber-input">Phone Number :</label>
+                        <input class="filllyt rubik" id="phonenumber-input" type="number"
+                            placeholder="Enter your phone number" />
+                    </div>
+                </form>
+                <div class="logcta">
+                    <button type="signUp" class="btn-log loginbtn eff-btn">Sign Up</button></a>
+                    <div class="cont-btn-g btn-g loginbtn">
+                        <img src="img/google.png" class="icn30" />
+                        <button class="btn-g-txt">Login with Google</button>
+                    </div>
+                </div>
+        </section>
+        <section class="hvrcontainer">
+            <div class="hvrcnttxt">
+                <h1 class="rubik font35px-med text-black">Get your member card now!</h1>
+                <p class="rubik font16px-reg text-grey">Let's join with our member and enjoy the deals.</p>
+            </div>
+            <a href="#"><button class="abs-btn eff-btn">Create Now</button></a>
+        </section>
+    </main>
+    <footer class="footcont" style="padding-top: 180px;">
+        <section class="leftft">
+            <section class="logo">
+                <img class="icn30" src="img/logo.png" />
+                <h1 class="textlogo">Coffee Shop</h1>
+            </section>
+            <p class="rubik font16px-med text-grey">Coffee Shop is a store that sells some good meals,
+                and especially coffee. We provide high quality beans</p>
+            <div class="socicn">
+                <img src="img/Socmed/Facebook.png" class="icn33" />
+                <img src="img/Socmed/Twitter.png" class="icn33" />
+                <img src="img/Socmed/Instagram.png" class="icn33" />
+            </div>
+            <p class="rubik font16px-reg text-grey">2020CoffeeStore</p>
+        </section>
+        <section class="rightft">
+            <div class="ctaft">
+                <ul class="ul-ctaft">
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Product</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Download </a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Pricing</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Locations</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Countries</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="ctaft">
+                <ul class="ul-ctaft">
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Engage</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Coffe Shop ? </a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">FAQ</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">About Us</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Privacy Policy</a></li>
+                    <li class="li-ctaft"><a class="rubik font16px-reg text-grey eff-nav" href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+<script>
+    // get
+fetch("https://63a962a3594f75dc1db4202f.mockapi.io/dataUSer")
+  .then((res) => {
+    if (!res.ok) return Promise.reject(new Error(`HTTP Error ${res.status}`));
+
+    return res.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => console.log(err));
+
+// post
+//data modifier
+let dataUserTemp = {
+  email: "RomeoXray@uvu.com",
+  password: "UQuJB6mIXsaLJOx",
+  phone: "800-345-4110",
+};
+// input
+let input = (param) => {
+  return document.getElementById(param);
+};
+
+input("email-input").onchange = (text) => {
+  dataUserTemp.email = input("email-input").value;
+};
+
+input("password-input").onchange = (text) => {
+  dataUserTemp.password = input("password-input").value;
+};
+
+input("phonenumber-input").onchange = (text) => {
+  dataUserTemp.phone = input("phonenumber-input").value;
+};
+console.log(dataUserTemp);
+
+const addNewData = () =>
+  fetch("https://63a962a3594f75dc1db4202f.mockapi.io/dataUSer", {
+    method: "POST",
+    body: dataUserTemp,
+  })
+    .then((res) => {
+      if (!res.ok) return Promise.reject(new Error(`HTTP Error ${res.status}`));
+
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+    })
+    .catch((err) => console.log(err));
+</script>
+</body>
+
+</html>

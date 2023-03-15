@@ -1,0 +1,252 @@
+.navbar {
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #9F9F9F solid;
+}
+
+.ul-navbar {
+    padding: 0px;
+    padding-left: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-navbar {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navcta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22vw;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    padding: 10px 10px;
+    padding-left: 1vw;
+    background-color: #EFEEEE;
+    border-radius: 20px;
+}
+
+.menuact {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 150px;
+    height: 91vh;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 30vw; */
+}
+
+.breadcrumb {
+    display: flex;
+    width: 19vw;
+    justify-content: space-between;
+}
+
+.dtlcta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 16vh;
+    width: 60%;
+}
+
+.dtltxtarr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dtltxtarr h1 {
+    font-family: poppins;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.dtltxtarr h2 {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.dtltxtarr h3 {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menuact img {
+    width: 300px;
+    height: 300px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 149vh;
+    flex: 1;
+    padding-right: 150px;
+    padding-top: 2vh;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 5vh 3vw;
+    background-color: #ffffff;
+    height: 51vh;
+    width: 29vw;
+}
+
+.ovrtxtarr p {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6A4029;
+}
+
+.ovrtxtarr strong {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 700;
+    color: #6A4029
+}
+
+.dtltxtarr div {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.dtltxtarr div img {
+   width: 50px;
+   height: 50px;
+}
+
+.sizebtn {
+    display: flex;
+    width: 78%;
+    justify-content: space-between;
+}
+
+.delivact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7vh;
+    width: 100%;
+    height: 23vh;
+}
+
+.timefill {
+    padding-top: 4vh;
+}
+
+.timefill label {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.timefill input {
+    border: none;
+    border-bottom: 2px #6A4029 solid;
+    background-color: unset;
+    width: 20vw;
+}
+
+.cxout {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+    width: auto;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 114vh;
+}
+
+.cxoutarrtxt {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 3vh 2vw;
+    box-shadow: 0px 6px 20px 0px #26262518;
+    width: 42vw;
+}
+
+.img-cxout {
+    width: 120px;
+    height: 120px;
+    padding-right: 50px;
+}
+.txtgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cxoutarrtxt h1 {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.cxoutarrtxt p {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.cxbtn {
+    padding: 3vh 5vw;
+    height: 22vh;
+    border-radius: 20px;
+    font-family: rubik;
+    color: #6A4029;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #FFBA33;
+    border: none;
+    cursor: pointer;
+}
+
+.cxoutcta {
+    display: flex;
+    width: 8vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12vw;
+}
+
+.cxoutcta h1 {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 900;
+}
